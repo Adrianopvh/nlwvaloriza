@@ -30,7 +30,7 @@ export class CreateUsers1624327899946 implements MigrationInterface {
                         default: "now()"
                     },
                     {
-                        name: "update_at",
+                        name: "updated_at",
                         type: "timestamp",
                         default: "now()"
                     }
@@ -42,5 +42,4 @@ export class CreateUsers1624327899946 implements MigrationInterface {
     public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.dropTable("users");
     }
-
 }

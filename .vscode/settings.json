@@ -1,3 +1,8 @@
 {
-  "editor.fontSize": 12
+  "editor.fontSize": 12,
+  "editor.tabSize": 1,
+  "editor.detectIndentation": false,
+  "debug.console.fontSize": 12,
+  "markdown.preview.fontSize": 12,
+  "terminal.integrated.fontSize": 12
 }
