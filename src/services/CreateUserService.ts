@@ -1,5 +1,5 @@
 import { getCustomRepository } from "typeorm";
-import { UsersRepositories } from "../repositories/repositories";
+import { UsersRepositories } from "../repositories/UsersRepositories";
 import { AppError } from "../shared/errors/AppError";
 import { hash } from "bcryptjs";
 
